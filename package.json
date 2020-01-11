@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.7.1",
+  "description": "food node js server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "node --inspect index.js"
+  },
+  "author": "Yevhenii Sylvestr",
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}
